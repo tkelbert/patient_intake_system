@@ -1,0 +1,22 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Patient data (you may want to exclude this in a real application)
+# patients.json
+
+# Flask debug files
+.flaskenv
+instance/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
