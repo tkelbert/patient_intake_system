@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patient Questionnaire</title>
+</head>
+
+<body>
+    <h1>Patient Questionnaire</h1>
+    <form action="/submit_questionnaire" method="POST">
+        <div>
+            <label for="patient_id">Patient ID:</label>
+            <input type="text" id="patient_id" name="patient_id" required><br><br>
+        </div>
+        <div>
+            <label for="feeling">How are you feeling today?</label><br>
+            <textarea id="feeling" name="feeling" rows="4" cols="50"></textarea><br><br>
+        </div>
+        <div>
+            <label for="symptoms">Any new symptoms?</label><br>
+            <textarea id="symptoms" name="symptoms" rows="4" cols="50"></textarea><br><br>
+        </div>
+        <div>
+            <label for="notes">Additional notes?</label><br>
+            <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+        </div>
+        <input type="submit" value="Submit Questionnaire">
+    </form>
+</body>
+
+</html>
