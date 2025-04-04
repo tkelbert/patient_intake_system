@@ -10,7 +10,7 @@ ENV/
 
 # Patient data (you may want to exclude this in a real application)
 # patients.json
-
+patient_*_questionnaire.json
 # Flask debug files
 .flaskenv
 instance/
